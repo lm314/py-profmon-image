@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-profmon-image"
+version = "0.0.1"
+authors = [{ name="Lucas Malin", email="lukemalin@gmail.com" }]
+description = "Python Class for reading and ploting MATLAB structures with images and associated metadata."
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	"scipy>=1.9.1",
+	"pandas >= 1.4.1",
+	"numpy >= 1.20.3",
+	"matplotlib >= 3.5.1",
+	"pillow>=9.2.0",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/lm314/py-profmon-image"
+"Bug Tracker" = "https://github.com/lm314/py-profmon-image/issues"
