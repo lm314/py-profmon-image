@@ -12,6 +12,6 @@ The MATLAB data structure has the following variable and fields contained in the
     └── res
 </pre>
 
-An example use case can be found [here](examples/DistGen_2dFile.ipynb), which runs through how to use this class to create a particle distribution at a cathode using the [distgen](https://github.com/ColwynGulliford/distgen) pacakge
+An example use case can be found [here](examples/DistGen_2dFile.ipynb), which runs through how to use this class to create a particle distribution at a cathode using the [distgen](https://github.com/ColwynGulliford/distgen) package
 
  
