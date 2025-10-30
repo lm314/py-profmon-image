@@ -1,6 +1,6 @@
 # py-profmon-image
 
-The following class is for reading image data that is stored in a MATLAB structure using the `scipy.io` module as well as displaying it using `matplotlib` and saving it outside the MATLAB fiel format using the `PIL` package.
+The following class is for reading image data that is stored in a MATLAB structure using the `scipy.io` module as well as displaying it using `matplotlib` and saving it outside the MATLAB file format using the `PIL` package.
 
 The MATLAB data structure has the following variable and fields contained in the ProfMon-Example.mat file:
 
